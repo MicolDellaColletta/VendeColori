@@ -1,0 +1,73 @@
+[gd_scene format=3 uid="uid://cadixvne8gs6f"]
+
+[ext_resource type="Script" uid="uid://283vfcy44l24" path="res://scripts/shop.gd" id="1_nt5ev"]
+[ext_resource type="Resource" uid="uid://lpqveam4myj1" path="res://data/squerariol.tres" id="2_6hmwj"]
+
+[node name="Shop" type="Control" unique_id=1782224492]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_nt5ev")
+customer = ExtResource("2_6hmwj")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=102132968]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.105882354, 0.101960786, 0.078431375, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=1668574001]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_colors/default_color = Color(0.8509804, 0.87058824, 0.8784314, 1)
+
+[node name="ButtonCat" type="Button" parent="." unique_id=2141542733]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Mortimer"
+
+[node name="ButtonNotebook" type="Button" parent="." unique_id=1773072662]
+layout_mode = 0
+offset_left = 70.0
+offset_top = 370.0
+offset_right = 155.0
+offset_bottom = 401.0
+text = "Notebook"
+
+[node name="ButtonNeroFumo" type="Button" parent="." unique_id=1014864938]
+layout_mode = 0
+offset_left = 67.0
+offset_top = 284.0
+offset_right = 162.0
+offset_bottom = 315.0
+text = "Nero Fumo"
+
+[node name="ButtonNeroAvorio" type="Button" parent="." unique_id=1121633730]
+layout_mode = 0
+offset_left = 189.0
+offset_top = 286.0
+offset_right = 290.0
+offset_bottom = 317.0
+text = "Nero Avorio"
+
+[connection signal="pressed" from="ButtonCat" to="." method="_on_button_cat_pressed"]
+[connection signal="pressed" from="ButtonNotebook" to="." method="_on_button_notebook_pressed"]
+[connection signal="pressed" from="ButtonNeroFumo" to="." method="_on_button_nero_fumo_pressed"]
+[connection signal="pressed" from="ButtonNeroAvorio" to="." method="_on_button_nero_avorio_pressed"]

@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="Customer" format=3 uid="uid://lpqveam4myj1"]
+
+[ext_resource type="Script" uid="uid://cel520ih64l37" path="res://scripts/Customer.gd" id="1_64k0j"]
+[ext_resource type="Script" uid="uid://bydhr2ng52824" path="res://scripts/Outcome.gd" id="1_wh26d"]
+
+[sub_resource type="Resource" id="Resource_wh26d"]
+script = ExtResource("1_wh26d")
+object_id = "nero_fumo"
+rating = "right"
+response_line = "\"...\"
+\"This'll do.\""
+metadata/_custom_type_script = "uid://bydhr2ng52824"
+
+[sub_resource type="Resource" id="Resource_7aj85"]
+script = ExtResource("1_wh26d")
+object_id = "nero_avorio"
+rating = "nearly"
+response_line = "\"...\"
+(he turns the jar over, looks at the price, looks at it again)
+\"Òstrega... xe caro, questo.\"
+(counts the coins twice) \"Va ben. Va ben.\""
+metadata/_custom_type_script = "uid://bydhr2ng52824"
+
+[resource]
+script = ExtResource("1_64k0j")
+id = "squerariol"
+display_name = "Bepi Scarpa"
+description = "Squerariol at the boatyard of San Trovaso. 
+Buys Black, nothing else, never asks the price twice. 
+Greets the cat first.
+Paid in coins from a tin for eleven years."
+greeting = "\"...\"
+(to the cat, tipping his hat) \"Bondì.\"
+(clearing his throat) \"...\""
+request = "\"Black. As much as you have, the cheap kind. No sense in the good stuff, it goes under lacquer anyways.\"
+\"New boat. Best one out of the squero this year.\" (a beat) \"She'll be on the Grand Canal for the regata.\"
+\"It has to hold against the water. That's all I ask of it.\""
+outcome = Array[ExtResource("1_wh26d")]([SubResource("Resource_wh26d"), SubResource("Resource_7aj85")])
+default_response = "\"Ti me tol par mona?\""
+metadata/_custom_type_script = "uid://cel520ih64l37"
