@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://dxrstmhj8moj"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_dtxje"]
+
+[resource]
+script = ExtResource("1_dtxje")
+id = "gommagutta"
+display_name = "Gommagutta"
+category = "pigment"
+origin = "Siam"
+toxicity = 2
+permanence = 1
+cost = 2
+color_family = "brown"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

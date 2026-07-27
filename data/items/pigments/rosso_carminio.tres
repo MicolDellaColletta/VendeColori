@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://6b10ao4gwa18"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_15w46"]
+
+[resource]
+script = ExtResource("1_15w46")
+id = "rosso_carminio"
+display_name = "Rosso carminio"
+category = "pigment"
+origin = "cochineal, Mexico/Canaries"
+permanence = 1
+cost = 4
+color_family = "red"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

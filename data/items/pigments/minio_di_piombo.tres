@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://cslj2wbnoqk8"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_66he5"]
+
+[resource]
+script = ExtResource("1_66he5")
+id = "minio_di_piombo"
+display_name = "Minio di piombo"
+category = "pigment"
+origin = "synthetic, lead"
+toxicity = 4
+permanence = 1
+cost = 1
+color_family = "orange"
+conflicts_with = Array[String](["orpimento", "realgar", "cinabro"])
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

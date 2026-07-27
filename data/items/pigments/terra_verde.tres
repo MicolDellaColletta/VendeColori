@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://bpiqnlc72mphl"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_rcmj0"]
+
+[resource]
+script = ExtResource("1_rcmj0")
+id = "terra_verde"
+display_name = "Terra Verde"
+category = "pigment"
+origin = "Verona"
+permanence = 4
+color_family = "green"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

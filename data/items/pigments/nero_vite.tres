@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://xr8ypbc7na6d"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_e8c46"]
+
+[resource]
+script = ExtResource("1_e8c46")
+id = "nero_vite"
+display_name = "Nero di vite"
+category = "pigment"
+origin = "burnt grapevine"
+permanence = 4
+color_family = "black"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

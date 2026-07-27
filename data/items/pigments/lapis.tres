@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://bggaj2kl4njni"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_sxm4e"]
+
+[resource]
+script = ExtResource("1_sxm4e")
+id = "lapis"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

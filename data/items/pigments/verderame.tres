@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://dgcnwch18cghk"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_1lsd7"]
+
+[resource]
+script = ExtResource("1_1lsd7")
+id = "verderame"
+display_name = "Verderame"
+category = "pigment"
+origin = "copper + vinegar, Montpellier"
+toxicity = 3
+permanence = 1
+cost = 1
+color_family = "green"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

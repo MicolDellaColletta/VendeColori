@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NotebookEntry" format=3 uid="uid://11q2bjphgm5c"]
+
+[ext_resource type="Script" uid="uid://k4mps32jag31" path="res://scripts/NotebookEntry.gd" id="1_mk137"]
+
+[resource]
+script = ExtResource("1_mk137")
+item_id = "verderame"
+body = "Verderame
+
+It was my grandmother's favourite. She painted with it for forty years, and she died with green under her nails. They say it was the heart, but I know better. I know what happens when you spend a lifetime touching copper that has drunk wine and turned into something else.
+
+You can find it in the old paintings. It glows at first. It glows like a promise. And then, slowly, it darkens. Becomes something else. Something the painter never intended. I've seen it happen. Watched a green field turn to brown over twenty years, like watching a memory rot.
+
+The secret is in the binding. Oil is a liar: iit loves copper, but it also betrays it. Turns it dark, turns it mean. Tempera is better, but only if you know the trick of it. And I knew the trick. 
+
+The copper we used came from Cyprus, and the vinegar from a farm outside Caltanissetta, and the hands that mixed them were my mother's hands, and her mother's before that. 
+
+I kept a jar of Verderame in the back room. It was old when I found it. Older than me, older than my grandmother. The label was gone, but the colour was still there. Now you've found it, or you will, and you'll wonder what to do with it.
+
+Don't use it with sulfur. I know you know that, but I'm saying it anyway. It'll blacken overnight. And don't mix it with lead, or it'll go muddy as regret. But if you use it pure, and if you're careful, and if the oil is fresh, and if the weather is dry, and if the stars are right... it's the most beautiful green you'll ever hold. It's green that remembers being metal. It's green that knows.
+
+Take care of the Verderame. It's not just pigment. It's a promise from the earth, broken and remade and broken again. Like all of us."
+metadata/_custom_type_script = "uid://k4mps32jag31"

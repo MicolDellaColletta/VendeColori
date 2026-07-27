@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://b4ahbq2hu848i"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_ije3o"]
+
+[resource]
+script = ExtResource("1_ije3o")
+id = "rosso_cinabro"
+display_name = "Cinabro"
+category = "pigment"
+origin = "Idria / Almadén / China"
+toxicity = 5
+permanence = 3
+cost = 4
+color_family = "red"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

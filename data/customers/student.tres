@@ -1,0 +1,52 @@
+[gd_resource type="Resource" script_class="Customer" format=3 uid="uid://dkibi1b3oq3eh"]
+
+[ext_resource type="Script" uid="uid://bydhr2ng52824" path="res://scripts/Outcome.gd" id="1_er5gl"]
+[ext_resource type="Script" uid="uid://cel520ih64l37" path="res://scripts/Customer.gd" id="2_qw0f6"]
+
+[sub_resource type="Resource" id="Resource_gfjfg"]
+script = ExtResource("1_er5gl")
+object_id = "lapis"
+rating = "wrong"
+response_line = "\"That looks amazing! Let me just...\"
+(she opens her purse and digs in. She takes out coins individually)
+(this takes a while. She's still going)
+(she's checking her pockets now)
+(she finally stops, puts five last coins down and smiles. A small mount of coin on the main counter). 
+\"I think that's right\"
+\"Thank you\"."
+metadata/_custom_type_script = "uid://bydhr2ng52824"
+
+[sub_resource type="Resource" id="Resource_w2x4q"]
+script = ExtResource("1_er5gl")
+object_id = "blu_oltremare_artificiale"
+rating = "nearly"
+response_line = "\"Oh, thanks. This looks good, but it's defenetly cheaper than expected\".
+(she looks in her purse and takes out individual coins, one by one)
+\"I think that's right\"
+\"Thank you\"."
+metadata/_custom_type_script = "uid://bydhr2ng52824"
+
+[sub_resource type="Resource" id="Resource_l7fc0"]
+script = ExtResource("1_er5gl")
+object_id = "blu_cobalto"
+rating = "right"
+response_line = "\"Oh, thanks. This looks good, but it's defenetly cheaper than expected\".
+(she looks in her purse and takes out individual coins, one by one)
+\"I think that's right\"
+\"Thank you\"."
+metadata/_custom_type_script = "uid://bydhr2ng52824"
+
+[resource]
+script = ExtResource("2_qw0f6")
+id = "student"
+display_name = "Angelica"
+description = "A young italian student from the Accademia. Always buys expansive pigments, always empties her coin purse, always adds the prices to check if she can afford what she came for. There's something in her eyes. A spark that hasn't yet faded, despite of everything."
+greeting = "\"Buongiorno\".
+\"I come here a lot. I guess you'll get tired of me eventually. You mom was always very kind to me. I'm very sorry for her passing\". "
+request = "\"I'm looking for blue, the best one\".
+\"Price does not matter, of course\".
+(she says this, but her mended clothes say otherwise)"
+outcome = Array[ExtResource("1_er5gl")]([SubResource("Resource_gfjfg"), SubResource("Resource_w2x4q"), SubResource("Resource_l7fc0")])
+default_response = "\"Oh. Yeah. Thanks\".
+(she double checks what you gave her, and seems about to say something. She doesn't)"
+metadata/_custom_type_script = "uid://cel520ih64l37"

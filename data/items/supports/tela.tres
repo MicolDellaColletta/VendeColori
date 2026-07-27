@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://bdgtjlryhnt1u"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_xp8ac"]
+
+[resource]
+script = ExtResource("1_xp8ac")
+id = "tela"
+display_name = "Tela"
+category = "support"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

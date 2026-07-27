@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://bv8ngjxk1bxg"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_txp8b"]
+
+[resource]
+script = ExtResource("1_txp8b")
+id = "bianco_di_spagna"
+display_name = "Bianco di Spagna"
+category = "pigment"
+origin = "chalk, Champagne/Spain"
+permanence = 4
+color_family = "white"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

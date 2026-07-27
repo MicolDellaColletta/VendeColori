@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://cel520ih64l37" path="res://scripts/Customer.gd" id="1_64k0j"]
 [ext_resource type="Script" uid="uid://bydhr2ng52824" path="res://scripts/Outcome.gd" id="1_wh26d"]
 
-[sub_resource type="Resource" id="Resource_wh26d"]
+[sub_resource type="Resource" id="Resource_i3hya"]
 script = ExtResource("1_wh26d")
 object_id = "nero_fumo"
 rating = "right"
@@ -35,6 +35,6 @@ greeting = "\"...\"
 request = "\"Black. As much as you have, the cheap kind. No sense in the good stuff, it goes under lacquer anyways.\"
 \"New boat. Best one out of the squero this year.\" (a beat) \"She'll be on the Grand Canal for the regata.\"
 \"It has to hold against the water. That's all I ask of it.\""
-outcome = Array[ExtResource("1_wh26d")]([SubResource("Resource_wh26d"), SubResource("Resource_7aj85")])
+outcome = Array[ExtResource("1_wh26d")]([SubResource("Resource_i3hya"), SubResource("Resource_7aj85")])
 default_response = "\"Ti me tol par mona?\""
 metadata/_custom_type_script = "uid://cel520ih64l37"

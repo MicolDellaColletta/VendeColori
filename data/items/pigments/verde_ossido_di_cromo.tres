@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://b14rw05yh2tdq"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_llfnj"]
+
+[resource]
+script = ExtResource("1_llfnj")
+id = "verde_ossido_di_cromo"
+display_name = "Verde ossido di cromo"
+category = "pigment"
+origin = "synthetic, 1838"
+toxicity = 1
+permanence = 3
+cost = 1
+color_family = "green"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

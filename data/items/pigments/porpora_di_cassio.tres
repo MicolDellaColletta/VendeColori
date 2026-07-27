@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://csbroq4cdlhj2"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_q62ae"]
+
+[resource]
+script = ExtResource("1_q62ae")
+id = "porpora_di_cassio"
+display_name = "Porpora di Cassio"
+category = "pigment"
+origin = "gold-based, Murano trade"
+toxicity = 1
+permanence = 4
+cost = 5
+color_family = "yellow"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

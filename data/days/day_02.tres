@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Day" format=3 uid="uid://c0fgsbxin38tb"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_oqy0h"]
+[ext_resource type="Resource" uid="uid://ddru1flpii7jk" path="res://data/items/pigments/lacca_di_robbia.tres" id="2_ij22f"]
+[ext_resource type="Script" uid="uid://cel520ih64l37" path="res://scripts/Customer.gd" id="2_tyc5v"]
+[ext_resource type="Resource" uid="uid://hkvbkgetkbxb" path="res://data/items/supports/pergamena.tres" id="3_es775"]
+[ext_resource type="Script" uid="uid://hab688dxg8ks" path="res://scripts/Day.gd" id="3_rxrc7"]
+[ext_resource type="Resource" uid="uid://g4srxvjnbidc" path="res://data/items/binders/olio_di_lino.tres" id="4_l645l"]
+
+[resource]
+script = ExtResource("3_rxrc7")
+box_items = Array[ExtResource("1_oqy0h")]([ExtResource("2_ij22f"), ExtResource("3_es775"), ExtResource("4_l645l")])
+metadata/_custom_type_script = "uid://hab688dxg8ks"

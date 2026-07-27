@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://d4e576spgfdt4"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_ngeqy"]
+
+[resource]
+script = ExtResource("1_ngeqy")
+id = "tavola"
+display_name = "Tavola"
+category = "support"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://phw577j3t3qh"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_2bow0"]
+
+[resource]
+script = ExtResource("1_2bow0")
+id = "giallo_dindia"
+display_name = "PigmentOriginCostPermToxNero fumosoot, anywhere050Nero di viteburnt grapevine040Nero d'avoriocharred bone150Terra giallawidespread050Terra di Siena bruciataTuscany150Terra d'ombra naturaleUmbria150Terra verdeVerona150Bianco di Spagnachalk, Champagne/Spain040Viola di Martesynthetic iron oxide150Bianco di piomboVenice / Dutch process154Minio di piombosynthetic, lead114Giallo di NapoliNaples, Vesuvius344Giallo orpimentoAnatolia, volcanic325Realgarvolcanic325CinabroIdria / Almadén / China435Giallo di cromiosynthetic, German works224Verde di ParigiSchweinfurt, synthetic235Verderamecopper + vinegar, Montpellier113AzzurriteHungary, Tyrol331Lacca di robbiamadder root, Provence220Rosso carminiocochineal, Mexico/Canaries410Giallo d'India"
+category = "pigment"
+origin = "Bengal"
+permanence = 2
+cost = 3
+color_family = "yellow"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

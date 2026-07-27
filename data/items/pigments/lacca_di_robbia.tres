@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://ddru1flpii7jk"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_mxaxj"]
+
+[resource]
+script = ExtResource("1_mxaxj")
+id = "lacca_di_robbia"
+display_name = "Lacca di robbia"
+category = "pigment"
+origin = "madder root, Provence"
+permanence = 2
+cost = 2
+color_family = "red"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

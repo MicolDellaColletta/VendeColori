@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://dpfek7lp25xjw"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_umleo"]
+
+[resource]
+script = ExtResource("1_umleo")
+id = "blu_di_prussia"
+display_name = "Blu di Prussia"
+category = "pigment"
+origin = "synthetic, 1706"
+toxicity = 1
+permanence = 3
+cost = 1
+color_family = "blue"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

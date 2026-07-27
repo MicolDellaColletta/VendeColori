@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://g4srxvjnbidc"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_kdtt8"]
+
+[resource]
+script = ExtResource("1_kdtt8")
+id = "olio_di_lino"
+display_name = "Olio di lino"
+category = "binder"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

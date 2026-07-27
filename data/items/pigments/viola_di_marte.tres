@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://d6plo0dbl28c"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_xkkvs"]
+
+[resource]
+script = ExtResource("1_xkkvs")
+id = "viola_di_marte."
+display_name = "Viola di Marte"
+category = "pigment"
+origin = "synthetic iron oxide"
+permanence = 5
+cost = 1
+color_family = "purple"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

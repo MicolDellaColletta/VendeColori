@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://b5ohptb6ndrkh"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_8fm0r"]
+
+[resource]
+script = ExtResource("1_8fm0r")
+id = "azzurrite"
+display_name = "Azzurrite"
+category = "pigment"
+origin = "Hungary, Tyrol"
+toxicity = 1
+permanence = 3
+cost = 3
+color_family = "blue"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

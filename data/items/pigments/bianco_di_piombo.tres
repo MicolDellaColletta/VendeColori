@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://xj6d00pmq3ve"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_ujq43"]
+
+[resource]
+script = ExtResource("1_ujq43")
+id = "bianco_di_piombo"
+display_name = "Bianco di piombo"
+category = "pigment"
+origin = "Venice / Dutch process"
+toxicity = 4
+permanence = 5
+cost = 1
+color_family = "white"
+conflicts_with = Array[String](["orpimento", "realgar", "cinabro"])
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

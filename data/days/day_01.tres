@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Day" format=3 uid="uid://clts5n6rkx1x6"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_u3syi"]
+[ext_resource type="Script" uid="uid://cel520ih64l37" path="res://scripts/Customer.gd" id="2_bn2or"]
+[ext_resource type="Script" uid="uid://hab688dxg8ks" path="res://scripts/Day.gd" id="3_2bme4"]
+[ext_resource type="Resource" uid="uid://lpqveam4myj1" path="res://data/customers/squerariol.tres" id="3_bn2or"]
+
+[resource]
+script = ExtResource("3_2bme4")
+customers = Array[ExtResource("2_bn2or")]([ExtResource("3_bn2or"), ExtResource("3_bn2or")])
+closing_text = "It's dark outside. Time to close the shop. You'll be here tomorrow.
+"
+metadata/_custom_type_script = "uid://hab688dxg8ks"

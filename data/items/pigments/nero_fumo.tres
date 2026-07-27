@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://didg35s3ng32s"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_h70wr"]
+
+[resource]
+script = ExtResource("1_h70wr")
+id = "nero_fumo"
+category = "pigment"
+origin = "soot, anywhere"
+permanence = 5
+color_family = "black"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

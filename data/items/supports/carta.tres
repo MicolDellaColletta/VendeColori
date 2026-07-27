@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://b1y4jh8abhtdf"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_5yx0l"]
+
+[resource]
+script = ExtResource("1_5yx0l")
+id = "carta"
+display_name = "Carta"
+category = "support"
+cost = 1
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

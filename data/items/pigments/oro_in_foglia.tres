@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://c6u6r0fwn6kr3"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_p3wi2"]
+
+[resource]
+script = ExtResource("1_p3wi2")
+id = "oro_in_foglia"
+display_name = "Oro in foglia"
+category = "pigment"
+origin = "beaten gold"
+permanence = 5
+cost = 5
+color_family = "yellow"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://cxg8qrye0iwgs"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_hr6hv"]
+
+[resource]
+script = ExtResource("1_hr6hv")
+id = "verde_smeraldo"
+display_name = "Verde SmVerde di Parigieraldo"
+category = "pigment"
+origin = "Schweinfurt, synthetic"
+toxicity = 5
+permanence = 3
+color_family = "green"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

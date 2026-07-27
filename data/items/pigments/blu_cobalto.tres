@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://d3eis33h28j8a"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_81dis"]
+
+[resource]
+script = ExtResource("1_81dis")
+id = "blu_cobalto"
+display_name = "Blu cobalto"
+category = "pigment"
+origin = "synthetic, 1802"
+toxicity = 2
+permanence = 5
+cost = 4
+color_family = "blue"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

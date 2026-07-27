@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://hkvbkgetkbxb"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_q8ixj"]
+
+[resource]
+script = ExtResource("1_q8ixj")
+id = "pergamena"
+display_name = "Pergamena"
+category = "support"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

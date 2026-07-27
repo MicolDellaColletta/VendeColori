@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://3jrsp6bofp5i"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_ovhf2"]
+
+[resource]
+script = ExtResource("1_ovhf2")
+id = "giallo_di_cromio"
+display_name = "Giallo di cromio"
+category = "pigment"
+origin = "synthetic, German works"
+toxicity = 4
+permanence = 2
+cost = 2
+color_family = "yellow"
+conflicts_with = Array[String](["orpimento", "realgar"])
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"

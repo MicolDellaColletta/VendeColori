@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://bbmsqybna6yj6"]
+
+[ext_resource type="Script" uid="uid://bv4dqjjsmhuxr" path="res://scripts/Item.gd" id="1_o48s6"]
+
+[resource]
+script = ExtResource("1_o48s6")
+id = "nero_avorio"
+display_name = "Nero d'avorio"
+category = "pigment"
+origin = "charred bone"
+permanence = 5
+cost = 1
+color_family = "black"
+metadata/_custom_type_script = "uid://bv4dqjjsmhuxr"
