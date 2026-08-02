@@ -237,9 +237,9 @@ func load_game() -> void:
 	var data: Dictionary = JSON.parse_string(file.get_as_text())
 	file.close()
 
-	day_index = data["day_index"]
-	customer_index = data["customer_index"]
-	phase = data["phase"]
+	day_index = int(data["day_index"])
+	customer_index = int(data["customer_index"])
+	phase = data["phase"] as Phase
 	cat_moved = data["cat_moved"]
 
 	shelf.clear()
